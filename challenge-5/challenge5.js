@@ -7,7 +7,7 @@
 // n=-5, m=5:  0
 
 function paperwork(n, m) {
-    if (n < 0 || m < 0) {
+    if (n < 0 || m < 0) { // if less then 0 return 0
         return 0;
     } else {
         return n * m;
@@ -18,4 +18,5 @@ console.log(paperwork(5, 5))
 
 console.log(paperwork(-5, 5))
 
-//level 8
+// level 8. I don't know why but the wording of this challenge made it a bit confusing to understand for me, I wasn't sure if I had to multiply or add but after trying I figured it out. 
+// After this challenge I felt comfortable going up a level (or down I guess 8 - 7)

@@ -23,4 +23,5 @@ String.prototype.toJadenCase = function () {
 
 console.log(str.toJadenCase())
 
-//hard lvel 7
+// level 7. Now, in this challenge I noticed that the difficulty had really increased, too much text I would say. 
+// Also, I was not familiar with String.prototype and I didn't know that I had to use the 'this' keyword to access the object. I had to do some research on MDN because this challenge confused me. I would say that it took me longer than I would have liked.

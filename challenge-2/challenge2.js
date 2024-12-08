@@ -18,10 +18,10 @@
 
 
 function sum (numbers) {
-    if(numbers.length === 0){
+    if(numbers.length === 0){ //if empty return 0
         return 0;
     } else {
-        return numbers.reduce((total, numSum) => total + numSum);
+        return numbers.reduce((total, numSum) => total + numSum); //using reduce method to add numbers and reduce array into a number value
     }
 }
 
@@ -29,4 +29,5 @@ console.log(sum([1, 5.2, 4, 0, -1]))
 console.log(sum([]))
 console.log(sum([-2.398]))
 
-//level 8
+// level 8. I felt pretty confident with this challenge, it was a simple challenge. 
+// Again I decided to use an array method to get more familiar with them.

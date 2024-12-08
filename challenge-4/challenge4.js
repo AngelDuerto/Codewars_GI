@@ -17,4 +17,5 @@ function loveFunc(flower1, flower2){
 
 console.log(loveFunc(1, 2))
 
-//level 8
+// level 8. This challenge was a little harder to understand, but after reading it a couple of times and trying different solutions, I got it. 
+// I know there could be a more efficient way to do it, but this solution worked.
